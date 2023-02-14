@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Image from './app/components/Image';
+import ImageComp from './app/components/ImageComp';
 
-function App() {
+const App = () => {
   return (
     <View style={styles.container}>
-      <Image />
+      <ImageComp />
       <StatusBar style="auto" />
     </View>
   );
